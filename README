@@ -1,0 +1,52 @@
+## INSTALLING TERRAFORM
+Simplest way is to use tfenv https://github.com/tfutils/tfenv
+- brew install tfenv
+- tfenv to check your installation - you should see a version
+- tfenv install <terraform version e.g 1.4.6>
+- tfenv list = lists all installed version
+- tfenv use <terraform version e.g 1.4.5> to use a particular version
+
+
+
+Assignment: 
+1. Replace values with variables when they are used more than once
+2. break things up into different logical files - providers.tf, cloudrun.tf
+3. Create a service account called cloudrun-service-account
+4. Make cloud run use that service account instead of the default service account
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
